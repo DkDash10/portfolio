@@ -10,7 +10,6 @@ const Footer = () => {
         <div className="social_links">
           <a href="https://github.com/DkDash10" target='_blank' title="Github"><BsGithub /></a>
           <a href="https://www.linkedin.com/in/dhanesh-09854922a/" target='_blank' title="LinkedIn"><BsLinkedin /></a>
-          <a href="https://app.netlify.com/teams/dhaneshdash11/sites" target='_blank' title="Netlify"><SiNetlify /></a>
         </div>
       </div>
     </section>

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import cover_img from '../assets/utopia_cover.png'
 import fein from '../assets/fein.mp3'
 import { BsSpotify } from 'react-icons/bs'
@@ -74,7 +74,7 @@ const About = () => {
             <div className="chat_msg received chat_first_msg" data-aos-delay="400" data-aos="fade-right">
               <label>🙃 Actually Me</label>
               <div>
-                <p>I was born and bought up in Mumbai, completed my SSC and HSC from Maharashtra Boards where i secured 80% and 53% respectively. And yes, I’m aware of the huge precentage difference, not proud of it really😶<br />Also, I did my graduation from Mumbai University in BSc IT and scored an overall CGPA of 8.7 percentile.</p>
+                <p>I was born and bought up in Mumbai, completed my SSC and HSC from State Board Also, I did my graduation from Mumbai University in BSc IT and scored an overall CGPA of 8.7 percentile.</p>
                 <span>{chatTime}</span>
               </div>
             </div>
